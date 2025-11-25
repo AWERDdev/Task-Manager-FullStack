@@ -20,7 +20,7 @@ function Profile() {
 
   const handleLogout = () => {
     logoutUser();
-    navigate("/Intro");
+    navigate("/");
   };
 
   const goToLogin = () => {

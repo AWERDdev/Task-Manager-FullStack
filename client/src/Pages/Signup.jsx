@@ -15,7 +15,7 @@ function Signup() {
   const navigate = useNavigate();
   
   const goToDashboard = () => {
-    navigate("/"); // Navigate to the dashboard page
+    navigate("/App"); // Navigate to the dashboard page
   };
   
   // Use our form utility
