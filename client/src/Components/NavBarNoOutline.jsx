@@ -10,7 +10,7 @@ function NavBar({ OpenSidebar }) {  // ✅ Fix destructuring
     navigate("/Signup"); // Navigate to the Signup page
   }
   const Home = ()=>{
-    navigate("/Intro"); // Navigate to the Signup page
+    navigate("/"); // Navigate to the Signup page
   }
   return (
     <nav className=" fixed h-[7vh] w-full shadow-lg rounded-none top-0 left-0 bg-[#111827] outline-1  ">

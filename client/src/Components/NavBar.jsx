@@ -4,13 +4,13 @@ import { useNavigate } from "react-router-dom";
 function NavBar({ OpenSidebar }) {  // ✅ Fix destructuring
   const navigate = useNavigate(); // Initialize navigate function
   const LoginPath = ()=>{
-    navigate("/Login"); // Navigate to the Signup page
+    navigate("/Login"); 
   }
   const Signup = ()=>{
-    navigate("/Signup"); // Navigate to the Signup page
+    navigate("/Signup"); 
   }
   const Home = ()=>{
-    navigate("/Intro"); // Navigate to the Signup page
+    navigate("/"); 
   }
   return (
     <nav className="fixed h-[7vh] w-full shadow-lg rounded-none top-0 left-0 bg-[#111827] outline-1 outline-gray-600 ">

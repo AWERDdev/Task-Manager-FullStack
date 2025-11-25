@@ -4,7 +4,7 @@ require('dotenv').config();
 const connectDB = async () => {
   // 'mongodb://127.0.0.1:27017/TaskMasterPublic ' local route
   try {
-    await mongoose.connect(process.env.MONGODB_URI);
+    await mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/TaskMasterPublic ');
     console.log('MongoDB connected successfully');
   } catch (error) {
     console.error('MongoDB connection error:', error);

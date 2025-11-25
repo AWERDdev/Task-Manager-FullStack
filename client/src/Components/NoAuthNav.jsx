@@ -1,11 +1,7 @@
 import { Menu } from "lucide-react";
 import PropTypes from "prop-types";
-// import { useNavigate } from "react-router-dom";
 function NoAuthNav({ OpenSidebar }) {  // ✅ Fix destructuring
-  // const navigate = useNavigate(); // Initialize navigate function
-  // //   const Home = ()=>{
-  // //   navigate("/"); // Navigate to the Signup page
-  // // }
+
   return (
     <nav className="fixed h-[7vh] w-full shadow-lg rounded-none top-0 left-0 bg-[#111827] outline-1 outline-[#d1d5db]">
       <header className="flex justify-between items-center h-full px-5">
